@@ -4,8 +4,8 @@ name: CI-aws-korn
 
 env:
     EB_PACKAGE_S3_BUCKET_NAME : "test-bucket-korn"
-    EB_APPLICATION_NAME       : "MyFlask"
-    EB_ENVIRONMENT_NAME       : "MyFlask-env"
+    EB_APPLICATION_NAME       : "test-python-korn"
+    EB_ENVIRONMENT_NAME       : "Testpythonkorn-env"
     DEPLOY_PACKAGE_NAME       : "flask_app_${{ github.sha }}.zip"
     AWS_REGION_NAME           : "eu-north-1"
 
